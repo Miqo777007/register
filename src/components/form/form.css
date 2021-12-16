@@ -1,0 +1,47 @@
+.label{
+    display: block;
+    font-size: larger;
+    color: white;
+    padding: 5px;
+  }
+    
+  .input{
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+      
+  }
+  .btn{
+    color: rgb(214, 40, 40);
+    background-color: black;
+    border-radius: 5px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+  }
+    
+  .messages{
+    display: flex;
+    justify-content: center;
+  }
+    
+  .error{
+    display: block;
+     color: red;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+  }
+    
+  .success{
+    display: block;
+     color: greenyellow;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+  }
+
+  .PhoneInput {
+    flex: unset !important;
+  }
